@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="../Multimedia/new_cn_logo.svg" alt="logo"></a>
+    </header>
+    <h1>Create an Account</h1>
+    <form action="#" method="post">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" name="fullname" id="name" required>
+        <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" id="mail" required>
+        <br><br>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass" required>
+        <br><br>
+        <label for="usertype">User Type:</label>
+        <select name="usertype" id="usertype" required>
+            <option value="" disabled selected>Select User type</option>
+            <option value="student">Student</option>
+            <option value="instrcutor">Instrcutor</option>
+        </select>
+        <br><br>
+        <label for="courseselect">Select Course:</label>
+        <select name="selectcourse" id="courseselect" required>
+            <option value="Web Development" selected>Course 1 - Web Development</option>
+            <option value="Data science">Course 2 - Data Science Fundamentals</option>
+            <option value="Digital marketing">Course 3 - Digital Marketing Mastery</option>
+            <option value="Android Development">Course 4 - Android Development</option>
+        </select>
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
